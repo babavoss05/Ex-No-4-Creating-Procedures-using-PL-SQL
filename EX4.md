@@ -11,7 +11,34 @@
 6. Display the employee table
 
 ### Program:
+i) Create a table
+```sql
+ create table employee(empid number, empname varchar(10), dept varchar(10), salary number);
+```
+ii)Creating a procedure:
+  ```sql
+create or replace procedure employee_data as
+    begin
+    insert into employee(empid,empname,dept,salary) values (1,'Sita','HR',70000);
+    insert into employee(empid,empname,dept,salary) values (2,'Anjali','MD',95000);
+    insert into employee(empid,empname,dept,salary) values (3,'Chandhini','Finance',80000);
+    commit;
+    end;
+    /
+ begin
+    employee_data;
+    end;
+    /
+```
 
 ### Output:
+![image](https://github.com/dineshgl/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/103019882/fa14640c-7dc4-469a-ab41-d9dbea456359)
+![image](https://github.com/dineshgl/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/103019882/e1d893ca-0e38-49a1-b00f-62d024c9826d)
+### Result:
+Hence the procedure using pl/sql is created successfully.
+
+
+
+
 
 ### Result:
