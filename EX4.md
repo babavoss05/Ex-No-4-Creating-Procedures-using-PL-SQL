@@ -1,5 +1,5 @@
 # Ex. No: 4 Creating Procedures using PL/SQL
-
+## DATE: 25/9/23
 ### AIM: To create a procedure using PL/SQL.
 
 ### Steps:
@@ -34,11 +34,7 @@ create or replace procedure employee_data as
 ### Output:
 ![image](https://github.com/dineshgl/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/103019882/fa14640c-7dc4-469a-ab41-d9dbea456359)
 ![image](https://github.com/dineshgl/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/103019882/e1d893ca-0e38-49a1-b00f-62d024c9826d)
+
+
 ### Result:
 Hence the procedure using pl/sql is created successfully.
-
-
-
-
-
-### Result:
